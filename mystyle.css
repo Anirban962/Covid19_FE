@@ -1,7 +1,7 @@
-body{
+.body{
 	background-color: powderblue;
-
 }
+
 #image{
 	border: 5px solid blue;
 	margin: 5px;
