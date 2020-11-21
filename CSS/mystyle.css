@@ -21,37 +21,16 @@
 	cursor: pointer;
 	animation: mymove 5s;
 	animation-timing-function: ease-in-out;
-	animation-iteration-count: 2;
-}
-
-#btn-headimg{
-	position: absolute;
-	top: 68px;
-	left: 16px;
-	border: none;
-	animation: mymove 5s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: 2;
-	background-color: red;
-	opacity: 0;
-	align-items: center;
-	cursor: pointer;
-	font-size: 13px;
-	font-weight: bold;
-
-}
-#btn-headimg:hover {
-	opacity: 1;
+	animation-iteration-count: 3;
 }
 
 @keyframes mymove {
 	from {left: 0px;}
-	to  {left: 1218px;} /*633px*/
+	to  {left: 1218px;}
 }
 
 @media screen and (max-width: 650px;) {
 	#vid {bottom:0; width: 50%;}
-	
 }
 
 h2{
