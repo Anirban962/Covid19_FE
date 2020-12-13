@@ -29,10 +29,6 @@
 	to  {left: 1218px;}
 }
 
-@media screen and (max-width: 650px;) {
-	#vid {bottom:0; width: 50%;}
-}
-
 h2{
 	color: #fbe90d;
 	font-family: 'Josefin Sans', sans-serif;

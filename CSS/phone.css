@@ -1,0 +1,39 @@
+#header {
+	text-align: center;
+	border: 8px dashed #75a197;
+	border-radius: 100px;
+	color: #ed2474;
+	background-color: #dabfe0;
+	position: sticky;
+	left: 0;
+	top: 0;	
+	text-shadow: 2px 2px 5px orange;
+	font-size: 18px;
+}
+
+#headimg{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	overflow: auto;
+	border: 1px solid red;
+	border-radius: 50%;
+	cursor: pointer;
+	animation: mymove 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 2;
+}
+
+@keyframes mymove {
+	from {left: 0px;}
+	to  {left: 470px;}
+}
+div.gallery{
+	margin: 5px 40px;
+	padding: 0px 0px 0px 30px;
+	float: left;
+	width: 100px;
+	text-decoration: none;
+	opacity: 0.5;
+	display: inline-block;
+}
